@@ -27,4 +27,9 @@
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.travis.yml" />
+    <None Include="build.sh" />
+    <None Include="travis_qmake_gcc_cpp14.pro" />
+  </ItemGroup>
 </Project>
