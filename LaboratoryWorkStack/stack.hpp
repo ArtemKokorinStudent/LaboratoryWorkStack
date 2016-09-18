@@ -52,7 +52,7 @@ size_t stack<T>::count() const
 template<typename T>
 void stack<T>::push(T const & new_element)
 {
-	if (count_ >= array_size) {
+	if (count_ >= array_size_) {
 		rereserve((array_size_ * 3) / 2 + 1, count_);
 	}
 	array_[count_] = new_element;
